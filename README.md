@@ -8,7 +8,7 @@
   <p>
     <a href="https://www.linkedin.com/in/kovvurujavidh"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
     <a href="mailto:javidhkovvuru@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Javidh" /></a>
-    <a href="https://javidhwebsite.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit personal website" /></a>
+    <a href="https://kovvurujavidh-p91c.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit personal website" /></a>
   </p>
 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&duration=3500&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Turning+data+into+clear+business+insights;Building+reports+and+KPI+dashboards;Learning+Python%2C+SQL%2C+Power+BI%2C+and+Excel;Growing+from+operations+into+analytics" alt="Profile focus animation" />
@@ -154,7 +154,7 @@ I am actively working toward an analytics-focused career by:
 
 <div align="center">
 
-  <a href="https://javidhwebsite.netlify.app"><img src="https://img.shields.io/badge/Explore%20my%20portfolio-javidhwebsite.netlify.app-0F766E?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Explore Javidh's portfolio" /></a>
+  <a href="https://kovvurujavidh-p91c.vercel.app"><img src="https://img.shields.io/badge/Explore%20my%20portfolio-kovvurujavidh--p91c.vercel.app-0F766E?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Explore Javidh's portfolio" /></a>
 
   <p><i>Open to learning, meaningful analytics work, and opportunities where data can improve everyday decisions.</i></p>
 
@@ -183,7 +183,7 @@ I am actively working toward an analytics-focused career by:
 
 📧 **[javidhkovvuru@gmail.com](mailto:javidhkovvuru@gmail.com)**  
 🔗 **[linkedin.com/in/kovvurujavidh](https://www.linkedin.com/in/kovvurujavidh)**  
-🌐 **[javidhwebsite.netlify.app](https://javidhwebsite.netlify.app)**  
+🌐 **[kovvurujavidh-p91c.vercel.app](https://kovvurujavidh-p91c.vercel.app)**  
 ☎️ **7670860094 (Home)**  
 📍 **Pileru, Andhra Pradesh, India**
 
