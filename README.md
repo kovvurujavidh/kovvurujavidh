@@ -17,6 +17,21 @@
 
 ---
 
+<table align="center">
+  <tr>
+    <td align="center" width="25%"><strong>Current role</strong><br /><sub>Assistant Branch Postmaster<br />India Post</sub></td>
+    <td align="center" width="25%"><strong>Primary focus</strong><br /><sub>Data Analytics<br />MIS Reporting</sub></td>
+    <td align="center" width="25%"><strong>Core toolkit</strong><br /><sub>Excel • SQL<br />Python • Power BI</sub></td>
+    <td align="center" width="25%"><strong>Based in</strong><br /><sub>Pileru<br />Andhra Pradesh</sub></td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Building%20my%20analytics%20career-2563EB?style=flat-square" alt="Building an analytics career" />
+  <img src="https://img.shields.io/badge/Focus-Reports%20%7C%20KPIs%20%7C%20Dashboards-0F766E?style=flat-square" alt="Reports KPIs and dashboards" />
+  <img src="https://img.shields.io/badge/Open%20to-Learning%20and%20opportunities-F59E0B?style=flat-square" alt="Open to learning and opportunities" />
+</p>
+
 ## About me
 
 I am a B.Com (Computer Applications) graduate from Sri Venkateswara University, currently working as an Assistant Branch Postmaster (ABPM) at India Post while developing my career in Data Analytics, MIS Reporting, and Business Intelligence.
@@ -33,6 +48,14 @@ I enjoy cleaning and understanding data, creating practical reports, building KP
 
 ## What I do
 
+<table>
+  <tr>
+    <td width="33%"><strong>Operations</strong><br /><sub>Customer service, transactions, records, compliance, and branch coordination.</sub></td>
+    <td width="33%"><strong>Analysis</strong><br /><sub>Data cleaning, structured queries, exploratory analysis, and model evaluation.</sub></td>
+    <td width="33%"><strong>Communication</strong><br /><sub>Business reports, KPI tracking, dashboards, and clear insight sharing.</sub></td>
+  </tr>
+</table>
+
 - Manage daily postal operations and customer service activities as an ABPM.
 - Handle financial transactions, account verification, records, and operational documentation.
 - Work with Excel for data organization, reporting, pivot charts, and KPI tracking.
@@ -41,6 +64,21 @@ I enjoy cleaning and understanding data, creating practical reports, building KP
 - Build and communicate practical reports and dashboard insights.
 
 ## Experience
+
+<table>
+  <tr>
+    <td align="center"><strong>2026 →</strong></td>
+    <td><strong>Assistant Branch Postmaster</strong><br /><sub>Department of Posts, India · Operations, financial services, records, and customer support</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>2025</strong></td>
+    <td><strong>Data Analyst Intern</strong><br /><sub>Zaalima Development · Data cleaning, Python analysis, visualization, and machine learning</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>2022–2025</strong></td>
+    <td><strong>B.Com (Computer Applications)</strong><br /><sub>Sri Venkateswara University · Business and computer applications foundation</sub></td>
+  </tr>
+</table>
 
 ### Assistant Branch Postmaster — Department of Posts, India
 
@@ -89,6 +127,14 @@ I enjoy cleaning and understanding data, creating practical reports, building KP
 ## Current learning focus
 
 I am actively working toward an analytics-focused career by:
+
+<table>
+  <tr>
+    <td align="center" width="33%"><strong>DONE</strong><br /><sub>Internship experience<br />Python • SQL • reporting</sub></td>
+    <td align="center" width="33%"><strong>BUILDING</strong><br /><sub>Dashboards<br />KPIs • visualization • analysis</sub></td>
+    <td align="center" width="33%"><strong>NEXT</strong><br /><sub>Analytics portfolio<br />MIS • BI opportunities</sub></td>
+  </tr>
+</table>
 
 - Strengthening Python and SQL for reliable, repeatable analysis.
 - Improving Excel reporting, pivot charts, KPI reporting, and dashboard storytelling.
