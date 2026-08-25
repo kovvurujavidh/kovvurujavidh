@@ -1,98 +1,149 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hello%20World!%20I'm%20Javidh&fontSize=50&fontAlignY=35&animation=twinkling" />
-</div>
 
-<h3 align="center">🚀 Full-Stack Software Engineer & AI Architect | Transforming Ideas into Reality</h3>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:06b6d4&height=220&section=header&text=KOVVURU%20JAVIDH&fontSize=46&fontColor=ffffff&fontAlignY=38&animation=fadeIn" alt="Kovvuru Javidh profile header" />
 
-<div align="center">
-  <a href="https://github.com/kovvurujavidh">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=4000&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Building+Scalable+Web+Applications...;Architecting+AI-Powered+Pipelines...;Developing+High-Performance+Backends...;Turning+Coffee+into+Code...;" alt="Typing SVG" />
-  </a>
-</div>
+  <h1>Hi, I'm Javidh 👋</h1>
+  <h3>ABPM at India Post • Aspiring Data Analyst • Excel • SQL • Power BI • Data Visualization</h3>
 
-<div align="center">
-  <a href="https://linkedin.com/in/kovvurujavidh"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://twitter.com/"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="Twitter"></a>
-  <a href="mailto:javidhkovvuru@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+  <p>
+    <a href="https://www.linkedin.com/in/kovvurujavidh"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+    <a href="mailto:javidhkovvuru@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Javidh" /></a>
+    <a href="https://javidhwebsite.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit personal website" /></a>
+  </p>
+
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&duration=3500&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Turning+data+into+clear+business+insights;Building+reports+and+KPI+dashboards;Learning+Python%2C+SQL%2C+Power+BI%2C+and+Excel;Growing+from+operations+into+analytics" alt="Profile focus animation" />
+
 </div>
 
 ---
 
-### 👨‍💻 About Me
+## About me
 
-Welcome to my digital workspace! I'm a passionate developer focused on building modern, robust, and beautiful applications.
+I am a B.Com (Computer Applications) graduate from Sri Venkateswara University, currently working as an Assistant Branch Postmaster (ABPM) at India Post while developing my career in Data Analytics, MIS Reporting, and Business Intelligence.
 
-- 🔭 **Currently working on:** [**AI Video Agent**](https://github.com/kovvurujavidh/ai-video-agent) — An autonomous, multi-agent AI video production studio leveraging Node.js, FastAPI, FFmpeg, and React.
-- 🌱 **Currently learning:** Advanced System Design, Large Language Model integrations, and Cloud Architecture.
-- 👯 **Looking to collaborate on:** Open-source AI tools, Web3 platforms, and creative tech solutions.
-- ⚡ **Fun fact:** I can spend hours debugging a single line of code and call it a productive day!
-
----
-
-### 🛠️ Languages and Tools
+I enjoy cleaning and understanding data, creating practical reports, building KPI-focused dashboards, and presenting insights in a way that supports better decisions.
 
 <div align="center">
-  <h4>💻 Languages</h4>
-  <p>
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  </p>
 
-  <h4>🌐 Frontend Development</h4>
-  <p>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  </p>
+| 📍 Location | 🎓 Education | 🎯 Career direction |
+|:---:|:---:|:---:|
+| Pileru, Andhra Pradesh, India | B.Com (Computer Applications) | Data Analytics • MIS Reporting • Business Intelligence |
 
-  <h4>⚙️ Backend & AI</h4>
-  <p>
-    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-    <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="Express" />
-    <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-    <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  </p>
-
-  <h4>☁️ DevOps & Tools</h4>
-  <p>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-    <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  </p>
 </div>
 
----
+## What I do
 
-### 📈 GitHub Analytics
+- Manage daily postal operations and customer service activities as an ABPM.
+- Handle financial transactions, account verification, records, and operational documentation.
+- Work with Excel for data organization, reporting, pivot charts, and KPI tracking.
+- Use Python and data-science libraries for data cleaning, analysis, visualization, and model experimentation.
+- Use SQL to query and work with structured data.
+- Build and communicate practical reports and dashboard insights.
+
+## Experience
+
+### Assistant Branch Postmaster — Department of Posts, India
+
+**May 2026 – Present**
+
+- Manage daily postal operations and customer service activities.
+- Handle deposits, withdrawals, postal savings services, and transaction processing.
+- Maintain accurate records, reports, and operational documentation.
+- Support cash management, account verification, and government-related services.
+- Coordinate with branch and departmental staff to support smooth day-to-day operations.
+- Follow operational procedures and service standards.
+
+### Data Analyst Intern — Zaalima Development
+
+**May 2025 – August 2025 · India**
+
+- Collected, cleaned, and analyzed datasets to support decision-making.
+- Built and evaluated classification and prediction models.
+- Created data visualizations and presented insights to the team.
+- Worked with Python, Pandas, NumPy, and scikit-learn.
+- Contributed to live projects in a remote, collaborative environment under mentorship.
+
+## Skills & tools
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kovvurujavidh&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=2563EB" alt="Javidh's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kovvurujavidh&theme=tokyonight&hide_border=true&background=0D1117&ring=2563EB&fire=2563EB" alt="Javidh's GitHub Streak" />
+
+### Analytics and reporting
+
+<img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Microsoft Excel" />
+<img src="https://img.shields.io/badge/Pivot%20Charts-0F766E?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Pivot charts" />
+<img src="https://img.shields.io/badge/Business%20Reporting-2563EB?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Business reporting" />
+<img src="https://img.shields.io/badge/KPI%20Reporting-7C3AED?style=for-the-badge&logo=powerbi&logoColor=white" alt="KPI reporting" />
+<img src="https://img.shields.io/badge/Data%20Visualization-DB2777?style=for-the-badge&logo=tableau&logoColor=white" alt="Data visualization" />
+
+### Programming and data
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111827" alt="Power BI" />
+
 </div>
 
-<br/>
+## Current learning focus
+
+I am actively working toward an analytics-focused career by:
+
+- Strengthening Python and SQL for reliable, repeatable analysis.
+- Improving Excel reporting, pivot charts, KPI reporting, and dashboard storytelling.
+- Practising data cleaning, exploratory analysis, visualization, and model evaluation.
+- Building a stronger portfolio for Data Analyst, MIS Reporting, and Business Intelligence opportunities.
+- Exploring practical AI-powered tools alongside my analytics journey.
+
+## Certifications
+
+- Python
+- SQL
+- Power BI Workshop
+- Data Analyst Internship Certificate
+- Deloitte Australia – Data Analytics Job Simulation
+
+## Career direction
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kovvurujavidh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="400" alt="Javidh's Top Languages" />
+
+  <a href="https://javidhwebsite.netlify.app"><img src="https://img.shields.io/badge/Explore%20my%20portfolio-javidhwebsite.netlify.app-0F766E?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Explore Javidh's portfolio" /></a>
+
+  <p><i>Open to learning, meaningful analytics work, and opportunities where data can improve everyday decisions.</i></p>
+
 </div>
 
-<br/>
+## GitHub activity
 
-<!-- GitHub Contribution Snake Animation -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kovvurujavidh/kovvurujavidh/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kovvurujavidh/kovvurujavidh/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/kovvurujavidh/kovvurujavidh/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img src="https://github-readme-stats.vercel.app/api?username=kovvurujavidh&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=38BDF8&icon_color=FBBF24" height="170" alt="Javidh's GitHub statistics" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kovvurujavidh&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=38BDF8" height="170" alt="Javidh's top languages" />
 </div>
 
----
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=kovvurujavidh&theme=tokyonight&hide_border=true&background=0F172A&ring=38BDF8&fire=FBBF24&currStreakLabel=38BDF8" alt="Javidh's GitHub contribution streak" />
+</div>
+
+<br />
 
 <div align="center">
-  <i>"Simplicity is the soul of efficiency." – Austin Freeman</i>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kovvurujavidh&bg_color=0F172A&color=E2E8F0&line=38BDF8&point=FBBF24&area=true&hide_border=true" alt="Javidh's GitHub activity graph" />
+</div>
+
+## Connect with me
+
+<div align="center">
+
+📧 **[javidhkovvuru@gmail.com](mailto:javidhkovvuru@gmail.com)**  
+🔗 **[linkedin.com/in/kovvurujavidh](https://www.linkedin.com/in/kovvurujavidh)**  
+🌐 **[javidhwebsite.netlify.app](https://javidhwebsite.netlify.app)**  
+☎️ **7670860094 (Home)**  
+📍 **Pileru, Andhra Pradesh, India**
+
+</div>
+
+<div align="center">
+  <br />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:2563eb,100:0f172a&height=100&section=footer" alt="Profile footer" />
 </div>
