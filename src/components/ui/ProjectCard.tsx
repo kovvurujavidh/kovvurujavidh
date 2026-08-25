@@ -16,19 +16,28 @@ const iconByName: Record<ProjectIconName, LucideIcon> = {
 
 const visualStyles: Record<
   ProjectIconName,
-  { background: string; accent: string }
+  { background: string; accent: string; icon: string; iconShell: string; label: string }
 > = {
   table: {
-    background: "from-amber-200 via-parchment-50 to-red-100",
+    background: "from-accent/10 via-card to-surface-raised/20",
     accent: "bg-accent",
+    icon: "text-foreground",
+    iconShell: "border-accent/30 shadow-[0_0_34px_-10px_rgb(200_111_82_/_0.38)]",
+    label: "text-accent",
   },
   database: {
-    background: "from-red-100 via-parchment-50 to-amber-200",
+    background: "from-accent-warm/10 via-card to-surface-raised/20",
     accent: "bg-accent-warm",
+    icon: "text-foreground",
+    iconShell: "border-accent-warm/40 shadow-[0_0_34px_-10px_rgb(217_155_130_/_0.38)]",
+    label: "text-accent",
   },
   chart: {
-    background: "from-yellow-200 via-parchment-50 to-orange-100",
-    accent: "bg-accent",
+    background: "from-accent-violet/10 via-card to-surface-raised/20",
+    accent: "bg-accent-violet",
+    icon: "text-foreground",
+    iconShell: "border-accent-violet/35 shadow-[0_0_34px_-10px_rgb(168_141_126_/_0.35)]",
+    label: "text-accent",
   },
 };
 
@@ -39,81 +48,129 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
   return (
     <article
       className={cn(
-        "group relative flex min-h-[31rem] flex-col overflow-hidden bg-card",
-        "manga-shadow",
+        "group relative flex min-h-[22rem] flex-col overflow-hidden rounded-3xl border border-border bg-card transition-[border-color,box-shadow,transform] duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[0_0_32px_-8px_rgb(200_111_82_/_0.22)]",
         project.featured && "lg:col-span-2",
       )}
     >
-      <div className="wanted-stripe border-b-[3px] border-foreground bg-accent px-4 py-2 text-center">
-        <span className="font-display text-4xl uppercase tracking-[0.18em] text-white">
-          Wanted
-        </span>
-      </div>
-
-      <div
-        className={cn(
-          "relative isolate flex min-h-56 flex-1 items-center justify-center overflow-hidden border-b-[3px] border-foreground bg-gradient-to-br transition-transform duration-300 ease-out group-hover:scale-[1.02] sm:min-h-64",
-          visualStyle.background,
-        )}
+      <a
+        href={project.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={project.linkLabel}
+        className="flex h-full flex-col focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-inset"
       >
-        <div aria-hidden="true" className="map-grid absolute inset-0 -z-10 opacity-80" />
         <div
           aria-hidden="true"
-          className={cn(
-            "absolute size-36 rounded-full opacity-20 blur-3xl transition-transform duration-500 group-hover:scale-125",
-            visualStyle.accent,
-          )}
+          className="h-px w-full bg-gradient-to-r from-transparent via-accent to-transparent opacity-70"
         />
-        <Icon
-          aria-hidden="true"
-          className="relative size-20 text-foreground transition-transform duration-500 group-hover:scale-110"
-          strokeWidth={1.5}
-        />
-        <span className="absolute left-5 top-5 font-mono text-xs font-bold tracking-[0.18em] text-foreground">
-          PROJECT {String(index + 1).padStart(2, "0")}
-        </span>
-        <ArrowUpRight
-          aria-hidden="true"
-          className="absolute right-5 top-5 size-5 -translate-x-1 -translate-y-1 text-accent opacity-0 transition-[opacity,transform] duration-300 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100"
-        />
-      </div>
 
-      <div className="flex flex-col gap-5 p-6 sm:p-7">
-        <div>
-          <div className="flex items-center justify-between gap-4">
-            <p className="font-mono text-xs font-bold uppercase tracking-[0.18em] text-accent">
-              {project.tool}
-            </p>
-            <p className="font-mono text-[0.65rem] font-bold uppercase tracking-[0.16em] text-muted">
-              Bounty Board
-            </p>
-          </div>
-          <h3 className="mt-3 text-4xl leading-none text-foreground">
-            {project.title}
-          </h3>
-          <p className="mt-2 font-mono text-xs font-bold uppercase tracking-[0.16em] text-muted">
-            Data voyage / Grand Line edition
-          </p>
+        <div className="flex items-center justify-between border-b border-border/70 px-5 py-4 font-mono text-[0.68rem] uppercase tracking-[0.16em] text-muted">
+          <span className="text-accent">
+            project_{String(index + 1).padStart(2, "0")}
+          </span>
+          <span>open_source</span>
         </div>
 
-        <p className="max-w-2xl text-sm font-semibold leading-7 text-foreground/80">
-          {project.description}
-        </p>
-
-        <ul
-          aria-label={`${project.title} technology stack`}
-          className="flex flex-wrap gap-2"
+        <div
+          className={cn(
+            "relative isolate flex min-h-40 flex-1 items-center justify-center overflow-hidden border-b border-border/70 bg-gradient-to-br transition-transform duration-500 group-hover:scale-[1.02] sm:min-h-48",
+            visualStyle.background,
+          )}
         >
-          {project.technologies.map((technology) => (
-            <li
-              key={technology}
-              className="border-2 border-foreground bg-surface px-3 py-1.5 font-mono text-[0.68rem] font-bold text-foreground"
+          {project.image ? (
+            <div
+              role="img"
+              aria-label={project.image.alt}
+              className="project-image-drift absolute inset-[-5%] bg-cover bg-center bg-no-repeat opacity-85 transition-transform duration-700 group-hover:scale-110"
+              style={{ backgroundImage: `url("${project.image.src}")` }}
+            />
+          ) : null}
+          <div
+            aria-hidden="true"
+            className={cn(
+              "map-grid absolute inset-0 -z-10 opacity-60",
+              project.image && "opacity-20",
+            )}
+          />
+          {project.image ? (
+            <div
+              aria-hidden="true"
+              className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/10 to-transparent"
+            />
+          ) : null}
+          <div
+            aria-hidden="true"
+            className="project-media-sheen absolute inset-y-0 -left-1/3 z-10 w-1/3 -skew-x-12 bg-white/30 opacity-0 blur-xl transition-opacity duration-300 group-hover:opacity-100"
+          />
+          <div
+            aria-hidden="true"
+            className={cn(
+              "absolute size-28 rounded-full opacity-25 blur-3xl transition-transform duration-500 group-hover:scale-125",
+              visualStyle.accent,
+            )}
+          />
+          <div
+            className={cn(
+              "icon-tile relative z-20 flex size-[4.5rem] items-center justify-center rounded-full transition-transform duration-500 group-hover:scale-110",
+              visualStyle.iconShell,
+            )}
+          >
+            <Icon
+              aria-hidden="true"
+              className={cn("relative size-11 stroke-[1.35]", visualStyle.icon)}
+            />
+          </div>
+          <span className="absolute bottom-3 left-5 z-20 font-mono text-[0.62rem] uppercase tracking-[0.16em] text-muted">
+            {project.tool} / analytics module
+          </span>
+          <ArrowUpRight
+            aria-hidden="true"
+            className={cn(
+              "absolute right-5 top-5 z-20 size-5 -translate-x-1 -translate-y-1 opacity-0 transition-[opacity,transform] duration-300 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100",
+              visualStyle.label,
+            )}
+          />
+        </div>
+
+        <div className="flex flex-col gap-4 p-5 sm:p-6">
+          <div>
+            <div className="flex items-center justify-between gap-4">
+              <p className={cn("font-mono text-xs uppercase tracking-[0.18em]", visualStyle.label)}>
+                {project.tool}
+              </p>
+              <p className="font-mono text-[0.65rem] uppercase tracking-[0.16em] text-muted">
+                github_repo
+              </p>
+            </div>
+            <h3 className="mt-2 text-2xl font-semibold leading-tight tracking-tight text-foreground">
+              {project.title}
+            </h3>
+          </div>
+
+          <p className="max-w-2xl text-sm leading-6 text-muted">
+            {project.description}
+          </p>
+
+          <div className="mt-auto flex items-end justify-between gap-4">
+            <ul
+              aria-label={`${project.title} technology stack`}
+              className="flex flex-wrap gap-2"
             >
-              {technology}
-            </li>
-          ))}
-        </ul>
-      </div>
+              {project.technologies.map((technology) => (
+                <li
+                  key={technology}
+                  className="rounded-full border border-border bg-secondary px-3 py-1.5 font-mono text-[0.68rem] text-muted"
+                >
+                  {technology}
+                </li>
+              ))}
+            </ul>
+            <span className="shrink-0 font-mono text-[0.68rem] uppercase tracking-[0.12em] text-accent">
+              open ↗
+            </span>
+          </div>
+        </div>
+      </a>
     </article>
   );
 }

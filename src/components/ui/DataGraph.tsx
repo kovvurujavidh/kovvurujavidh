@@ -20,10 +20,10 @@ export function DataGraph() {
         <linearGradient id="data-graph-line" x1="0" x2="1" y1="0" y2="0">
           <stop offset="0" stopColor="currentColor" stopOpacity="0" />
           <stop offset="0.2" stopColor="currentColor" />
-          <stop offset="1" stopColor="#eab308" />
+          <stop offset="1" stopColor="#d99b82" />
         </linearGradient>
         <filter id="data-graph-glow" x="-20%" y="-20%" width="140%" height="140%">
-          <feGaussianBlur result="blur" stdDeviation="7" />
+          <feGaussianBlur result="blur" stdDeviation="5" />
           <feMerge>
             <feMergeNode in="blur" />
             <feMergeNode in="SourceGraphic" />
@@ -32,12 +32,14 @@ export function DataGraph() {
       </defs>
 
       <path
+        className="data-graph-flow"
         d={graphPath}
         pathLength="1"
         stroke="currentColor"
-        strokeDasharray="0.012 0.03"
+        strokeDasharray="0.02 0.04"
+        strokeDashoffset="0"
         strokeLinecap="round"
-        strokeOpacity="0.45"
+        strokeOpacity="0.6"
         strokeWidth="1"
         vectorEffect="non-scaling-stroke"
       />
@@ -45,11 +47,7 @@ export function DataGraph() {
         animate={{ opacity: 1, pathLength: 1 }}
         d={graphPath}
         filter="url(#data-graph-glow)"
-        initial={
-          shouldReduceMotion
-            ? { opacity: 1, pathLength: 1 }
-            : { opacity: 0, pathLength: 0 }
-        }
+        initial={false}
         stroke="url(#data-graph-line)"
         strokeLinecap="round"
         strokeWidth="3"

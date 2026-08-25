@@ -1,4 +1,5 @@
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
+import { Contact } from "@/components/sections/Contact";
 import { Experience } from "@/components/sections/Experience";
 import { GithubActivity } from "@/components/sections/GithubActivity";
 import { Hero } from "@/components/sections/Hero";
@@ -22,6 +23,9 @@ export default function Home() {
       </ScrollReveal>
       <ScrollReveal>
         <GithubActivity />
+      </ScrollReveal>
+      <ScrollReveal>
+        <Contact />
       </ScrollReveal>
     </>
   );

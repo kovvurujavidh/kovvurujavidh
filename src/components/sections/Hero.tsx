@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, FileText } from "lucide-react";
+import { ArrowUpRight, FileText, Mail } from "lucide-react";
 import Link from "next/link";
 import { FadeIn } from "@/components/animations/FadeIn";
 import { DataGraph } from "@/components/ui/DataGraph";
@@ -39,20 +39,30 @@ export function Hero() {
           </FadeIn>
 
           <FadeIn delay={0.3}>
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
               <Link
                 href="#projects"
-                className="manga-shadow inline-flex min-h-12 w-full items-center justify-center gap-2 bg-accent px-6 py-3 font-bold text-foreground transition-colors duration-200 hover:bg-red-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
+                className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-accent px-6 py-3 font-semibold text-white shadow-[0_0_24px_-6px_rgb(200_111_82_/_0.3)] transition-all duration-300 hover:bg-accent-warm hover:shadow-[0_0_32px_-4px_rgb(200_111_82_/_0.34)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
               >
                 View Projects
                 <ArrowUpRight aria-hidden="true" size={18} strokeWidth={1.8} />
               </Link>
               <Link
                 href="/resume.pdf"
-                className="manga-shadow inline-flex min-h-12 w-full items-center justify-center gap-2 bg-surface px-6 py-3 font-bold text-foreground transition-colors duration-200 hover:bg-surface-raised hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open resume PDF in a new tab"
+                className="glass-panel inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full bg-surface/70 px-6 py-3 font-semibold text-foreground backdrop-blur-sm transition-all duration-300 hover:border-accent/50 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
               >
                 Resume
                 <FileText aria-hidden="true" size={17} strokeWidth={1.8} />
+              </Link>
+              <Link
+                href="#contact"
+                className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-full border border-border bg-surface/40 px-6 py-3 font-semibold text-foreground transition-all duration-300 hover:border-accent/50 hover:bg-white/50 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
+              >
+                Contact
+                <Mail aria-hidden="true" size={17} strokeWidth={1.8} />
               </Link>
             </div>
           </FadeIn>

@@ -10,19 +10,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        charcoal: { 950: "#1c1917", 900: "#292524", 800: "#44403c" },
-        parchment: { 50: "#fffbeb", 100: "#fef3c7", 200: "#fde68a" },
-        straw: "#eab308",
-        strawred: "#ef4444",
-        offwhite: "#fffbeb",
-        ink: "#1c1917",
-        electric: "#ef4444",
-        violet: "#7f1d1d",
-        amber: "#eab308",
+        charcoal: { 950: "#090b0a", 900: "#111511", 800: "#1a211a" },
+        offwhite: "#f2f5ef",
+        ink: "#090b0a",
+        electric: "#b7ff00",
+        violet: "#8977ff",
+        amber: "#ff8a3d",
       },
       fontFamily: {
-        sans: ["var(--font-nunito)", "Nunito", "sans-serif"],
-        display: ["var(--font-bangers)", "Bangers", "Impact", "sans-serif"],
+        sans: ["var(--font-inter)", "Inter", "sans-serif"],
+        display: ["var(--font-space-grotesk)", "Space Grotesk", "sans-serif"],
         mono: ["var(--font-jetbrains-mono)", "JetBrains Mono", "monospace"],
       },
       borderRadius: { DEFAULT: "0.5rem" },

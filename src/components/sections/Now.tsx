@@ -3,10 +3,10 @@ export function Now() {
     <section
       id="now"
       aria-labelledby="now-heading"
-      className="border-t border-border/70 px-6 py-16 sm:px-8 sm:py-20 lg:px-12"
+      className="border-t border-border/70 px-6 py-12 sm:px-8 sm:py-16 lg:px-12"
     >
       <div className="mx-auto w-full max-w-6xl">
-        <div className="flex flex-col gap-4 rounded-lg border border-border/70 bg-surface p-6 transition-colors duration-200 hover:bg-secondary/50 sm:flex-row sm:items-center sm:gap-6 sm:p-8">
+        <div className="flex flex-col gap-3 rounded-3xl border border-border/70 bg-surface p-5 transition-colors duration-200 hover:bg-secondary/50 sm:flex-row sm:items-center sm:gap-5 sm:p-6">
           <span className="relative flex h-3 w-3 shrink-0" aria-hidden="true">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-60 motion-reduce:hidden" />
             <span className="relative inline-flex h-3 w-3 rounded-full bg-accent" />
@@ -18,7 +18,7 @@ export function Now() {
             >
               Now
             </h2>
-            <p className="mt-2 text-base leading-7 text-muted sm:text-lg">
+            <p className="mt-1.5 text-sm leading-6 text-muted sm:text-base">
               Currently working as an Assistant Branch Postmaster at India Post
               while seeking full-time Data Analyst roles.
             </p>

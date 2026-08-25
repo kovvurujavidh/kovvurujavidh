@@ -14,11 +14,7 @@ export function FadeIn({ children, className, delay = 0 }: FadeInProps) {
 
   return (
     <motion.div
-      initial={{
-        opacity: shouldReduceMotion ? 1 : 0,
-        scale: shouldReduceMotion ? 1 : 0.96,
-        y: shouldReduceMotion ? 0 : 24,
-      }}
+      initial={false}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{
         delay: shouldReduceMotion ? 0 : delay,
