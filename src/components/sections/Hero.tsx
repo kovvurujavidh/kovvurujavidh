@@ -42,14 +42,14 @@ export function Hero() {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="#projects"
-                className="inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 font-semibold text-zinc-950 shadow-[0_0_24px_-6px_rgba(6,182,212,0.5)] transition-all duration-300 hover:bg-cyan-400 hover:shadow-[0_0_32px_-4px_rgba(6,182,212,0.6)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
+                className="manga-shadow inline-flex min-h-12 w-full items-center justify-center gap-2 bg-accent px-6 py-3 font-bold text-foreground transition-colors duration-200 hover:bg-red-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
               >
                 View Projects
                 <ArrowUpRight aria-hidden="true" size={18} strokeWidth={1.8} />
               </Link>
               <Link
                 href="/resume.pdf"
-                className="glass-panel inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-lg bg-zinc-900/50 px-6 py-3 font-semibold text-foreground backdrop-blur-sm transition-all duration-300 hover:border-cyan-500/50 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
+                className="manga-shadow inline-flex min-h-12 w-full items-center justify-center gap-2 bg-surface px-6 py-3 font-bold text-foreground transition-colors duration-200 hover:bg-surface-raised hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background sm:w-auto"
               >
                 Resume
                 <FileText aria-hidden="true" size={17} strokeWidth={1.8} />

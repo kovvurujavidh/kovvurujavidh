@@ -15,13 +15,16 @@ export function ScrollReveal({ children, className }: ScrollRevealProps) {
     <motion.div
       initial={{
         opacity: shouldReduceMotion ? 1 : 0,
-        y: shouldReduceMotion ? 0 : 20,
+        scale: shouldReduceMotion ? 1 : 0.94,
+        y: shouldReduceMotion ? 0 : 28,
+        rotate: shouldReduceMotion ? 0 : -1,
       }}
-      whileInView={{ opacity: 1, y: 0 }}
+      whileInView={{ opacity: 1, scale: 1, y: 0, rotate: 0 }}
       viewport={{ once: true, margin: "-80px" }}
       transition={{
-        duration: shouldReduceMotion ? 0 : 0.6,
-        ease: "easeOut",
+        type: "spring",
+        bounce: shouldReduceMotion ? 0 : 0.5,
+        duration: shouldReduceMotion ? 0 : 0.9,
       }}
       className={className}
     >

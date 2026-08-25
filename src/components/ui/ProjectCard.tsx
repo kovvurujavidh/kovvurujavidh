@@ -16,22 +16,19 @@ const iconByName: Record<ProjectIconName, LucideIcon> = {
 
 const visualStyles: Record<
   ProjectIconName,
-  { background: string; glow: string; icon: string }
+  { background: string; accent: string }
 > = {
   table: {
-    background: "from-cyan-500/10 via-zinc-900/40 to-transparent",
-    glow: "bg-cyan-500",
-    icon: "text-cyan-300",
+    background: "from-amber-200 via-parchment-50 to-red-100",
+    accent: "bg-accent",
   },
   database: {
-    background: "from-violet-500/10 via-zinc-900/40 to-transparent",
-    glow: "bg-violet-500",
-    icon: "text-violet-300",
+    background: "from-red-100 via-parchment-50 to-amber-200",
+    accent: "bg-accent-warm",
   },
   chart: {
-    background: "from-sky-500/10 via-zinc-900/40 to-transparent",
-    glow: "bg-sky-500",
-    icon: "text-sky-300",
+    background: "from-yellow-200 via-parchment-50 to-orange-100",
+    accent: "bg-accent",
   },
 };
 
@@ -42,41 +39,37 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
   return (
     <article
       className={cn(
-        "group relative flex min-h-[31rem] flex-col overflow-hidden rounded-xl border border-white/10 bg-zinc-900/50 backdrop-blur-sm",
-        "transition-all duration-500 hover:-translate-y-1 hover:border-cyan-500/50 hover:shadow-[0_0_30px_-5px_rgba(6,182,212,0.3)]",
+        "group relative flex min-h-[31rem] flex-col overflow-hidden bg-card",
+        "manga-shadow",
         project.featured && "lg:col-span-2",
       )}
     >
-      <div
-        aria-hidden="true"
-        className="h-px w-full bg-gradient-to-r from-transparent via-cyan-500/60 to-transparent"
-      />
+      <div className="wanted-stripe border-b-[3px] border-foreground bg-accent px-4 py-2 text-center">
+        <span className="font-display text-4xl uppercase tracking-[0.18em] text-white">
+          Wanted
+        </span>
+      </div>
 
       <div
         className={cn(
-          "relative isolate flex min-h-56 flex-1 items-center justify-center overflow-hidden border-b border-white/10 bg-gradient-to-br transition-transform duration-300 ease-out group-hover:scale-[1.02] sm:min-h-64",
+          "relative isolate flex min-h-56 flex-1 items-center justify-center overflow-hidden border-b-[3px] border-foreground bg-gradient-to-br transition-transform duration-300 ease-out group-hover:scale-[1.02] sm:min-h-64",
           visualStyle.background,
         )}
       >
-        <div
-          aria-hidden="true"
-          className="map-grid absolute inset-0 -z-10 opacity-60"
-        />
+        <div aria-hidden="true" className="map-grid absolute inset-0 -z-10 opacity-80" />
         <div
           aria-hidden="true"
           className={cn(
-            "absolute size-36 rounded-full opacity-20 blur-3xl transition-all duration-500 group-hover:scale-125 group-hover:opacity-30",
-            visualStyle.glow,
+            "absolute size-36 rounded-full opacity-20 blur-3xl transition-transform duration-500 group-hover:scale-125",
+            visualStyle.accent,
           )}
         />
         <Icon
           aria-hidden="true"
-          className={cn(
-            "relative size-20 stroke-[1.25] transition-transform duration-500 group-hover:scale-110",
-            visualStyle.icon,
-          )}
+          className="relative size-20 text-foreground transition-transform duration-500 group-hover:scale-110"
+          strokeWidth={1.5}
         />
-        <span className="absolute left-5 top-5 font-mono text-xs tracking-[0.18em] text-muted">
+        <span className="absolute left-5 top-5 font-mono text-xs font-bold tracking-[0.18em] text-foreground">
           PROJECT {String(index + 1).padStart(2, "0")}
         </span>
         <ArrowUpRight
@@ -88,30 +81,33 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       <div className="flex flex-col gap-5 p-6 sm:p-7">
         <div>
           <div className="flex items-center justify-between gap-4">
-            <p className="font-mono text-xs uppercase tracking-[0.18em] text-accent">
+            <p className="font-mono text-xs font-bold uppercase tracking-[0.18em] text-accent">
               {project.tool}
             </p>
-            <p className="font-mono text-[0.65rem] uppercase tracking-[0.16em] text-muted">
-              Case Study
+            <p className="font-mono text-[0.65rem] font-bold uppercase tracking-[0.16em] text-muted">
+              Bounty Board
             </p>
           </div>
-          <h3 className="mt-3 text-4xl font-semibold leading-none text-foreground">
+          <h3 className="mt-3 text-4xl leading-none text-foreground">
             {project.title}
           </h3>
-          <p className="mt-2 font-mono text-xs uppercase tracking-[0.16em] text-muted">
-            Analytics engineering
+          <p className="mt-2 font-mono text-xs font-bold uppercase tracking-[0.16em] text-muted">
+            Data voyage / Grand Line edition
           </p>
         </div>
 
-        <p className="max-w-2xl text-sm leading-7 text-zinc-300">
+        <p className="max-w-2xl text-sm font-semibold leading-7 text-foreground/80">
           {project.description}
         </p>
 
-        <ul aria-label={`${project.title} technology stack`} className="flex flex-wrap gap-2">
+        <ul
+          aria-label={`${project.title} technology stack`}
+          className="flex flex-wrap gap-2"
+        >
           {project.technologies.map((technology) => (
             <li
               key={technology}
-              className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 font-mono text-[0.68rem] text-zinc-300 transition-colors group-hover:border-white/20"
+              className="border-2 border-foreground bg-surface px-3 py-1.5 font-mono text-[0.68rem] font-bold text-foreground"
             >
               {technology}
             </li>

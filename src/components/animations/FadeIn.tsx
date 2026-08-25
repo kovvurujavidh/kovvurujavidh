@@ -16,13 +16,15 @@ export function FadeIn({ children, className, delay = 0 }: FadeInProps) {
     <motion.div
       initial={{
         opacity: shouldReduceMotion ? 1 : 0,
-        y: shouldReduceMotion ? 0 : 20,
+        scale: shouldReduceMotion ? 1 : 0.96,
+        y: shouldReduceMotion ? 0 : 24,
       }}
-      animate={{ opacity: 1, y: 0 }}
+      animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{
-        duration: shouldReduceMotion ? 0 : 0.55,
         delay: shouldReduceMotion ? 0 : delay,
-        ease: "easeOut",
+        type: "spring",
+        bounce: shouldReduceMotion ? 0 : 0.5,
+        duration: shouldReduceMotion ? 0 : 0.8,
       }}
       className={className}
     >

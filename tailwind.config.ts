@@ -21,8 +21,8 @@ const config: Config = {
         amber: "#eab308",
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "Inter", "sans-serif"],
-        display: ["var(--font-space-grotesk)", "Space Grotesk", "sans-serif"],
+        sans: ["var(--font-nunito)", "Nunito", "sans-serif"],
+        display: ["var(--font-bangers)", "Bangers", "Impact", "sans-serif"],
         mono: ["var(--font-jetbrains-mono)", "JetBrains Mono", "monospace"],
       },
       borderRadius: { DEFAULT: "0.5rem" },
