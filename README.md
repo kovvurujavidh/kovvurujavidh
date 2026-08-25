@@ -8,7 +8,7 @@
   <p>
     <a href="https://www.linkedin.com/in/kovvurujavidh"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
     <a href="mailto:javidhkovvuru@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Javidh" /></a>
-    <a href="https://javidhwebsite.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit personal website" /></a>
+    <a href="(https://kovvurujavidh-p91c.vercel.app/)"><img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit personal website" /></a>
   </p>
 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&duration=3500&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Turning+data+into+clear+business+insights;Building+reports+and+KPI+dashboards;Learning+Python%2C+SQL%2C+Power+BI%2C+and+Excel;Growing+from+operations+into+analytics" alt="Profile focus animation" />
