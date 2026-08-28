@@ -12,7 +12,7 @@
     <a href="mailto:javidhkovvuru@gmail.com">
       <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
-    <a href="https://kovvurujavidh-p91c.vercel.app">
+    <a href="https://personal-web-pagey.vercel.app/">
       <img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=google-chrome&logoColor=white" />
     </a>
   </p>
