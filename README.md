@@ -161,7 +161,7 @@ I enjoy cleaning and understanding data, creating practical reports, building KP
 
 <div align="center">
 
-<a href="https://kovvurujavidh-p91c.vercel.app">
+<a href="https://personal-web-pagey.vercel.app/">
 <img src="https://img.shields.io/badge/🌐%20PORTFOLIO-Visit%20Website-14B8A6?style=for-the-badge" />
 </a>
 
