@@ -12,7 +12,7 @@
     <a href="mailto:javidhkovvuru@gmail.com">
       <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&style=flat-square" />
     </a>
-    <a href="https://personal-web-pagey.vercel.app/">
+    <a href="localbizz.dpdns.org">
       <img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=google-chrome&logoColor=white&style=flat-square" />
     </a>
   </p>
