@@ -1,175 +1,153 @@
 <div align="center">
-
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:06b6d4&height=250&section=header&text=KOVVURU%20JAVIDH&fontSize=50&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Data%20Analyst%20%7C%20Business%20Intelligence%20%7C%20Python%20%7C%20SQL&descAlignY=55&descAlign=62" alt="Kovvuru Javidh profile header" />
-
-  <h1>Hi there! I'm Javidh 👋</h1>
-  <h3>Turning data into clear business insights</h3>
-
-  <p>
-    <a href="https://www.linkedin.com/in/kovvurujavidh">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:4338CA,45:7C3AED,100:06B6D4&text=JAVIDH&fontSize=64&fontColor=FFFFFF&fontAlignY=40&desc=DATA%20%26%20MIS%20ANALYST&descSize=19&descAlignY=62" />  <br/>  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2500&pause=800&color=8B5CF6&center=true&vCenter=true&width=550&lines=Excel+%7C+SQL+%7C+Power+BI;Data+Analytics+%26+Reporting;Turning+Data+Into+Insights" alt="Animated introduction"/>  <p>
+    <a href="https://github.com/kovvurujavidh">
+      <img src="https://img.shields.io/badge/GitHub-Explore_My_Work-181717?style=for-the-badge&logo=github" />
     </a>
     <a href="mailto:javidhkovvuru@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white&style=flat-square" />
+      <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
-    <a href="localbizz.dpdns.org">
-      <img src="https://img.shields.io/badge/Portfolio-Visit-14B8A6?style=for-the-badge&logo=google-chrome&logoColor=white&style=flat-square" />
+    <a href="https://localbizz.dpdns.org">
+      <img src="https://img.shields.io/badge/Portfolio-Visit_Website-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" />
     </a>
   </p>
+</div>---
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=21&duration=3500&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Building+reports+and+KPI+dashboards;Learning+Python%2C+SQL%2C+Power+BI%2C+and+Excel;Growing+from+operations+into+analytics;Turning+data+into+clear+business+insights" />
+<h2 align="center">✨ About Me</h2><p align="center">
+  I'm <b>Javidh</b>, a B.Com Computer Applications graduate passionate about
+  <b>Data Analytics, MIS Reporting, and Business Intelligence.</b>
+  I enjoy transforming raw data into clear reports, interactive dashboards,
+  and useful business insights.
+</p><table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>📊</h3>
+      <b>Data Analytics</b>
+      <br/><sub>Cleaning, analysis and KPI reporting</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>📈</h3>
+      <b>Dashboards</b>
+      <br/><sub>Interactive reports and visual insights</sub>
+    </td>
+    <td align="center" width="33%">
+      <h3>🎯</h3>
+      <b>Business Insights</b>
+      <br/><sub>Turning data into useful decisions</sub>
+    </td>
+  </tr>
+</table>---
 
-</div>
+<h2 align="center">🛠️ My Skills</h2><h3>💻 Tools & Technologies</h3><p>
+  <img src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PowerPoint-B7472A?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white"/>
+</p><h3>⚡ Analytics Skills</h3><p>
+  <img src="https://img.shields.io/badge/Data_Cleaning-0891B2?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Pivot_Tables-7C3AED?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Pivot_Charts-DB2777?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Data_Visualization-2563EB?style=flat-square"/>
+  <img src="https://img.shields.io/badge/KPI_Analysis-059669?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Business_Reporting-D97706?style=flat-square"/>
+  <img src="https://img.shields.io/badge/EDA-9333EA?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Dashboard_Development-0F766E?style=flat-square"/>
+</p><p><b>Excel:</b> XLOOKUP · VLOOKUP · Conditional Formatting · Data Validation</p><p><b>SQL:</b> SELECT · WHERE · GROUP BY · ORDER BY · HAVING · Aggregate Functions · Subqueries</p><p><b>Power BI:</b> DAX · Power Query · KPI Cards · Interactive Slicers</p>---
 
-<br>
+<h2 align="center">🚀 Featured Projects</h2><table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 HR Analytics Dashboard</h3>
+      <p><b>Microsoft Excel</b></p>
+      <ul>
+        <li>Analyzed 1,470 employee records.</li>
+        <li>Built employee and attrition KPI cards.</li>
+        <li>Used Pivot Tables, Pivot Charts and Slicers.</li>
+        <li>Explored workforce trends and employee attrition.</li>
+      </ul>
+      <a href="https://github.com/kovvurujavidh?tab=repositories">View Repositories →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🗄️ HR Analytics Using SQL</h3>
+      <p><b>MySQL</b></p>
+      <ul>
+        <li>Analyzed HR data with SQL queries.</li>
+        <li>Used filtering, grouping and aggregate functions.</li>
+        <li>Applied subqueries and sorting.</li>
+        <li>Explored salary, departments and attrition.</li>
+      </ul>
+      <a href="https://github.com/kovvurujavidh?tab=repositories">View Repositories →</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>📈 HR Analytics Dashboard</h3>
+      <p><b>Power BI · DAX · Power Query</b></p>
+      <ul>
+        <li>Created interactive workforce reports and KPI cards.</li>
+        <li>Visualized employee distribution, salaries and attrition.</li>
+        <li>Used Power Query for data transformation and DAX for measures.</li>
+      </ul>
+      <a href="https://github.com/kovvurujavidh?tab=repositories">View Repositories →</a>
+    </td>
+  </tr>
+</table>---
 
-<div align="center">
-  <img src="https://media.giphy.com/media/qgQUggCGvnPZG/giphy.gif" width="600" style="border-radius: 10px;">
-</div>
+<h2 align="center">💼 Experience</h2><table>
+  <tr>
+    <td width="60">
+      <h2>📮</h2>
+    </td>
+    <td>
+      <b>Assistant Branch Postmaster — India Post</b>
+      <br/>
+      <sub>May 2026 – Present</sub>
+      <ul>
+        <li>Handle postal and banking transactions.</li>
+        <li>Verify customer documents and maintain accurate records.</li>
+        <li>Prepare daily operational records and follow procedures.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h2>📊</h2>
+    </td>
+    <td>
+      <b>Data Analyst Trainee — Zaalima Development Pvt. Ltd.</b>
+      <br/>
+      <sub>April 2025 – June 2025</sub>
+      <ul>
+        <li>Cleaned and validated datasets using Excel.</li>
+        <li>Analyzed data using Pivot Tables and Excel functions.</li>
+        <li>Assisted in preparing business reports and KPI summaries.</li>
+      </ul>
+    </td>
+  </tr>
+</table>---
 
-<br>
+<h2 align="center">🎓 Education</h2><div align="center">
+  <h3>🎓 B.Com — Computer Applications</h3>
+  <p>Sri Venkateshwara University · Margadarsini College, Piler</p>
+  <img src="https://img.shields.io/badge/Graduated-2025-7C3AED?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/CGPA-8.0%2F10-059669?style=for-the-badge"/>
+</div>---
 
-## 👨‍💻 About Me
+<h2 align="center">📈 GitHub Activity</h2><div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kovvurujavidh&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kovvurujavidh&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages"/>
+  <br/><br/>
+  <img width="75%" src="https://streak-stats.demolab.com?user=kovvurujavidh&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+</div>---
 
-I am a B.Com (Computer Applications) graduate from Sri Venkateswara University, currently working as an Assistant Branch Postmaster (ABPM) at India Post while developing my career in Data Analytics, MIS Reporting, and Business Intelligence. I enjoy cleaning and understanding data, creating practical reports, building KPI-focused dashboards, and presenting insights in a way that supports better decisions.
-
-<div align="center">
-
-| 📍 Location | 🎓 Education | 🎯 Career Direction |
-|:---:|:---:|:---:|
-| Pileru, Andhra Pradesh, India | B.Com (Computer Applications) | Data Analytics • MIS • Business Intelligence |
-
-</div>
-
-<br>
-
-## 🛠️ Skills & Tools
-
-<div align="center">
-
-### 📊 Analytics & Reporting
-
-<a href="https://www.microsoft.com/en-in/microsoft-365/excel"><img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" /></a>
-<img src="https://img.shields.io/badge/Pivot%20Charts-0F766E?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Business%20Reporting-2563EB?style=for-the-badge" />
-<img src="https://img.shields.io/badge/KPI%20Reporting-7C3AED?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Data%20Visualization-DB2777?style=for-the-badge" />
-
-### 💻 Programming & Data
-
-<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /></a>
-<a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" /></a>
-<a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" /></a>
-<a href="https://numpy.org/"><img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /></a>
-<a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" /></a>
-<a href="https://powerbi.microsoft.com/"><img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111827" /></a>
-
-</div>
-
-<br>
-
-## 🚀 My Latest Projects
-
-> 💡 *These projects are automatically updated via GitHub Actions!*
-
-<div align="center">
-
-<!-- PROJECTS:START -->
-<!-- PROJECTS:END -->
-
-<br>
-
-<a href="https://github.com/kovvurujavidh?tab=repositories">
-<img src="https://img.shields.io/badge/🌐%20EXPLORE%20ALL%20REPOSITORIES-2563EB?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</div>
-
-<br>
-
-## 📈 GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=kovvurujavidh&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=38BDF8&icon_color=FBBF24" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kovvurujavidh&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0F172A&title_color=38BDF8" height="170" />
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=kovvurujavidh&theme=tokyonight&hide_border=true&background=0F172A&ring=38BDF8&fire=FBBF24&currStreakLabel=38BDF8" />
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kovvurujavidh/kovvurujavidh/output/github-contribution-grid-snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kovvurujavidh/kovvurujavidh/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/kovvurujavidh/kovvurujavidh/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kovvurujavidh&bg_color=0F172A&color=E2E8F0&line=38BDF8&point=FBBF24&area=true&hide_border=true" />
-
-</div>
-
-<br>
-
-## 💼 Experience
-
-<table>
-<tr>
-<td align="center"><strong>2026 →</strong></td>
-<td><strong>Assistant Branch Postmaster</strong><br>
-<sub>Department of Posts, India · Operations, financial services, records, and customer support</sub></td>
-</tr>
-<tr>
-<td align="center"><strong>2025</strong></td>
-<td><strong>Data Analyst Intern</strong><br>
-<sub>Zaalima Development · Data cleaning, Python analysis, visualization, and machine learning</sub></td>
-</tr>
-<tr>
-<td align="center"><strong>2022–2025</strong></td>
-<td><strong>B.Com (Computer Applications)</strong><br>
-<sub>Sri Venkateswara University · Business and computer applications foundation</sub></td>
-</tr>
-</table>
-
-<br>
-
-## 🎯 Current Learning Focus
-
-<div align="center">
-
-| ✅ DONE | 🔨 BUILDING | 🚀 NEXT |
-|:---:|:---:|:---:|
-| Internship experience | Dashboards | Analytics portfolio |
-| Python • SQL | KPIs | MIS |
-| Reporting | Visualization | Business Intelligence |
-
-</div>
-
-<br>
-
-## 🌐 Let's Connect
-
-<div align="center">
-
-<a href="https://personal-web-pagey.vercel.app/">
-<img src="https://img.shields.io/badge/🌐%20PORTFOLIO-Visit%20Website-14B8A6?style=for-the-badge" />
-</a>
-<a href="https://www.linkedin.com/in/kovvurujavidh">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:javidhkovvuru@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<br><br>
-
-<i>Open to learning, meaningful analytics work, and opportunities where data can improve everyday decisions.</i>
-
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:2563eb,100:0f172a&height=100&section=footer" />
+<h2 align="center">🌱 My Current Focus</h2><p align="center">
+  Improving Excel and SQL · Building Power BI dashboards ·
+  Developing MIS reporting skills · Creating practical analytics projects
+</p><h2 align="center">🤝 Let's Connect</h2><p align="center">
+  <a href="mailto:javidhkovvuru@gmail.com">📧 Email</a> &nbsp; • &nbsp;
+  <a href="https://github.com/kovvurujavidh">💻 GitHub</a> &nbsp; • &nbsp;
+  <a href="https://localbizz.dpdns.org">🌐 Website</a>
+</p><div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:7C3AED,100:4338CA&height=110&section=footer"/>
+  <i>Building skills. Analyzing data. Growing every day. ✨</i>
 </div>
